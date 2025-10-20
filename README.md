@@ -19,18 +19,20 @@ La aplicación está compuesta por tres componentes principales:
 
 ## 🧩 Estructura del proyecto
 
+```bash
 CreaTuLanding1_Diaz/
 ├── src/
-│ ├── App.jsx
-│ ├── main.jsx
-│ ├── index.css
-│ └── components/
-│ ├── NavBar.jsx
-│ ├── CartWidget.jsx
-│ └── ItemListContainer.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   ├── index.css
+│   └── components/
+│       ├── NavBar.jsx
+│       ├── CartWidget.jsx
+│       └── ItemListContainer.jsx
 ├── index.html
 ├── package.json
 └── vite.config.js
+```
 
 ## 🧠 Conceptos aplicados
 
