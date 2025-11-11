@@ -34,8 +34,8 @@ NavegaLasRutas_Diaz/
 │   │   └── NavBar.jsx
 │   │   └── NotFound.jsx
 │   ├── containers/
-│   │    ├── Home.jsx
-│   │    └── Category.jsx
+│   │    ├── ItemDetailContainer.jsx
+│   │    └── ItemListContainer.jsx
 │   ├── context/
 │   │    └── CartContext.jsx
 │   ├── data/
