@@ -12,7 +12,7 @@ export const PRODUCTS = [
     category: "cafe",
     stock: 20,
     description: "Espresso con leche vaporizada, suave y cremoso.",
-    image: "https://picsum.photos/seed/latte/600/400",
+    image: "/src/img/photo-1572442388796-11668a67e53d.jpeg",
   },
   {
     id: "p2",
@@ -21,7 +21,7 @@ export const PRODUCTS = [
     category: "cafe",
     stock: 18,
     description: "Espresso, leche y espuma en partes iguales.",
-    image: "https://picsum.photos/seed/cappuccino/600/400",
+    image: "/src/img/photo-1541167760496-1628856ab772.jpeg",
   },
   {
     id: "p3",
@@ -30,7 +30,7 @@ export const PRODUCTS = [
     category: "postres",
     stock: 12,
     description: "Brownie casero con nuez, crujiente por fuera.",
-    image: "https://picsum.photos/seed/brownie/600/400",
+    image: "/src/img/photo-1606313564200-e75d5e30476c.jpeg",
   },
   {
     id: "p4",
@@ -39,6 +39,6 @@ export const PRODUCTS = [
     category: "accesorios",
     stock: 10,
     description: "Acero inoxidable, tapa hermética.",
-    image: "https://picsum.photos/seed/vaso/600/400",
+    image: "/src/img/photo-1614313564200-e75d5e30476c.jpeg",
   },
 ];

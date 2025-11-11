@@ -3,6 +3,7 @@ import NavBar from "./components/NavBar.jsx";
 import ItemListContainer from "./containers/ItemListContainer.jsx";
 import ItemDetailContainer from "./containers/ItemDetailContainer.jsx";
 import NotFound from "./components/NotFound.jsx";
+import CartPage from "./pages/CartPage.jsx";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
           <Route path="/category/:categoryId" element={<ItemListContainer />} />
           <Route path="/item/:id" element={<ItemDetailContainer />} />
           <Route path="*" element={<NotFound />} />
+          <Route path="/cart" element={<CartPage />} />
         </Routes>
       </main>
     </>

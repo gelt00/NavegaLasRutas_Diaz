@@ -13,3 +13,18 @@
 .card-img-top {
   object-fit: cover;
 }
+
+.detail-img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.cart-thumb {
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+}
+.cart-line-total {
+  min-width: 100px;
+}

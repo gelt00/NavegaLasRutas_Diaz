@@ -2,9 +2,11 @@ import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import CartWidget from "./CartWidget.jsx";
 import { CATEGORIES } from "../data/products";
+import { useCart } from "../context/CartContext.jsx";
 
 export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
+  const { getTotalQuantity } = useCart();
   const toggleMenu = () => setIsOpen((p) => !p);
 
   return (
@@ -58,7 +60,9 @@ export default function NavBar() {
           </ul>
 
           <div className="d-flex">
-            <CartWidget count={2} />
+            <Link to="/cart" className="text-decoration-none">
+              <CartWidget count={getTotalQuantity()} />
+            </Link>
           </div>
         </div>
       </div>
