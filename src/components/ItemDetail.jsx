@@ -1,4 +1,3 @@
-// src/components/ItemDetail.jsx
 import { useState } from "react";
 import { useCart } from "../context/CartContext.jsx";
 
@@ -7,7 +6,7 @@ export default function ItemDetail({ item }) {
   const { addToCart, isInCart } = useCart();
   const [added, setAdded] = useState(false);
 
-  if (!item) return null; // guarda ante rutas inválidas/cargas
+  if (!item) return null;
 
   const handleAdd = () => {
     addToCart(item, quantity);
